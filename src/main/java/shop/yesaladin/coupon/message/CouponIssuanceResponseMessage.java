@@ -5,6 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+/**
+ * 쿠폰 발행 요청에 응답하기 위한 메시지 클래스입니다.
+ *
+ * @author 김홍대
+ * @since 1.0
+ */
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
