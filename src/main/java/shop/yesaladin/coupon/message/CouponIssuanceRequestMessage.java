@@ -10,9 +10,12 @@ import shop.yesaladin.coupon.code.TriggerTypeCode;
  */
 public class CouponIssuanceRequestMessage {
 
-    private final String requestId;
-    private final TriggerTypeCode triggerType;
-    private final Long couponId;
+    private String requestId;
+    private TriggerTypeCode triggerType;
+    private Long couponId;
+
+    public CouponIssuanceRequestMessage() {
+    }
 
     public CouponIssuanceRequestMessage(
             String requestId,
