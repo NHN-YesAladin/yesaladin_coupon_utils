@@ -1,5 +1,8 @@
 package shop.yesaladin.coupon.message;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import shop.yesaladin.coupon.code.TriggerTypeCode;
 
 /**
@@ -8,34 +11,13 @@ import shop.yesaladin.coupon.code.TriggerTypeCode;
  * @author 김홍대
  * @since 1.0
  */
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class CouponIssuanceRequestMessage {
 
     private String requestId;
     private TriggerTypeCode triggerType;
     private Long couponId;
 
-    public CouponIssuanceRequestMessage() {
-    }
-
-    public CouponIssuanceRequestMessage(
-            String requestId,
-            TriggerTypeCode triggerType,
-            Long couponId
-    ) {
-        this.requestId = requestId;
-        this.triggerType = triggerType;
-        this.couponId = couponId;
-    }
-
-    public String getRequestId() {
-        return requestId;
-    }
-
-    public TriggerTypeCode getTriggerType() {
-        return triggerType;
-    }
-
-    public Long getCouponId() {
-        return couponId;
-    }
 }

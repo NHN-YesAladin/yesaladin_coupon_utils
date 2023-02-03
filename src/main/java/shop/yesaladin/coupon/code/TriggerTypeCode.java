@@ -1,11 +1,16 @@
 package shop.yesaladin.coupon.code;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
 /**
  * 쿠폰 발행 트리거 타입 코드 클래스입니다.
  *
  * @author 김홍대
  * @since 1.0
  */
+@Getter
+@RequiredArgsConstructor
 public enum TriggerTypeCode {
 
     SIGN_UP(1, "회원가입"),
@@ -19,17 +24,4 @@ public enum TriggerTypeCode {
 
     private final int code;
     private final String displayName;
-
-    TriggerTypeCode(int code, String displayName) {
-        this.code = code;
-        this.displayName = displayName;
-    }
-
-    public int getCode() {
-        return code;
-    }
-
-    public String getDisplayName() {
-        return displayName;
-    }
 }
