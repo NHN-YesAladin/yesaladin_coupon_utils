@@ -1,11 +1,5 @@
-package shop.yesaladin.coupon.trigger;
+package shop.yesaladin.coupon.code;
 
-/**
- * 쿠폰 범위 코드 입니다.
- *
- * @author 서민지
- * @since 1.0
- */
 public enum CouponBoundCode {
 
     ALL(1, "전체 상품"), CATEGORY(2, "지정 카테고리"), PRODUCT(3, "지정 상품");

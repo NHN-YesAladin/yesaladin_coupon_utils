@@ -1,4 +1,4 @@
-package shop.yesaladin.coupon.trigger;
+package shop.yesaladin.coupon.code;
 
 public enum TriggerTypeCode {
 
