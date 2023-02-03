@@ -1,5 +1,11 @@
 package shop.yesaladin.coupon.code;
 
+/**
+ * 쿠폰 발행 트리거 타입 코드 클래스입니다.
+ *
+ * @author 김홍대
+ * @since 1.0
+ */
 public enum TriggerTypeCode {
 
     SIGN_UP(1, "회원가입"),
