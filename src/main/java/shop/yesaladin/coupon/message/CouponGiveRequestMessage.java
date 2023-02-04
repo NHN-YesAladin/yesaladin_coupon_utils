@@ -22,5 +22,4 @@ public class CouponGiveRequestMessage {
     private String requestId;
     private TriggerTypeCode triggerTypeCode;
     private Long couponId;
-    private long quantity;
 }
