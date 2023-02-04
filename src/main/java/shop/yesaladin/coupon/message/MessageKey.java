@@ -12,7 +12,8 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public enum MessageKey {
-    GIVEN_REQUEST("지급 요청"), GIVEN_SUCCESS("지급 완료"), USE_SUCCESS("사용 완료");
+    GIVE_REQUEST("지급 요청"), GIVE_REQUEST_RESPONSE("지급 요청 응답"), GIVEN("지급 완료"), GIVE_CANCEL("지급 취소"),
+    USE_REQUEST("사용 요청"), USE_REQUEST_RESPONSE("사용 요청 응답"), USED("사용 완료"), USE_SUCCESS("사용 완료");
 
     private final String description;
 }
