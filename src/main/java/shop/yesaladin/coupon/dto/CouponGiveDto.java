@@ -1,5 +1,6 @@
 package shop.yesaladin.coupon.dto;
 
+import java.time.LocalDate;
 import java.util.List;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -15,5 +16,5 @@ public class CouponGiveDto {
 
     private List<String> couponCodes;
     private String couponGroupCode;
-
+    private LocalDate expirationDate;
 }
