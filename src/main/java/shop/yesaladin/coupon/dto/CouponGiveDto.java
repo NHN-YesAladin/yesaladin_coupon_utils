@@ -15,5 +15,5 @@ public class CouponGiveDto {
 
     private List<String> couponCodes;
     private String couponGroupCode;
-
+    private LocalDate expirationDate;
 }
