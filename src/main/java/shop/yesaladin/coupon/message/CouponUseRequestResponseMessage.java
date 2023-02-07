@@ -20,4 +20,5 @@ public class CouponUseRequestResponseMessage {
 
     private String requestId;
     private boolean success;
+    private String errorMessage;
 }
