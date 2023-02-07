@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import java.time.LocalDateTime;
 
 /**
  * 쿠폰 사용 요청 시 사용하는 메시지 클래스입니다.
@@ -21,4 +22,5 @@ public class CouponUseRequestMessage {
 
     private String requestId;
     private List<String> couponCodes;
+    private LocalDateTime requestDateTime;
 }
